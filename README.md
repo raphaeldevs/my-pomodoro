@@ -1,2 +1,3 @@
-# my-pomodoro
+# Pomodoro
+
 Minha versão do famoso pomodoro
