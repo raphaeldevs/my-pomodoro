@@ -129,10 +129,6 @@ function workingState() {
   }
 
   start()
-
-  window.addEventListener('keypress', ({ key }) => {
-    if (key === '1') state.timing = 2
-  })
 }
 
 async function restingState() {
@@ -195,10 +191,6 @@ async function restingState() {
   }
 
   start()
-
-  window.addEventListener('keypress', ({ key }) => {
-    if (key === '2') state.timing = 2
-  })
 }
 
 buttonStart.addEventListener('click', workingState)
